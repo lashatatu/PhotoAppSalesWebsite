@@ -6,6 +6,10 @@ body {
     color: #1caa98 !important;
 }
 
+.col-md-4 {
+    margin-bottom: 20px;
+}
+
 section {
     padding: 40px 0 40px 0;
 }
@@ -45,6 +49,11 @@ section#feature ul li {
     font-size: 22px;
     list-style: none;
     line-height: 2.0em;
+}
+
+section#feature ul {
+    padding: 0;
+    margin: 0;
 }
 
 .demo {
@@ -126,7 +135,7 @@ footer p {
 
 @media (min-width: 500px) {
     .jumbotron {
-        height: 400px !important;
+        height: 500px !important;
         background-image: none;
         text-align: center;
     }
@@ -135,5 +144,15 @@ footer p {
         width: 60%;
         margin: 0 auto 30px auto;
         display: block;
+    }
+
+    section#feature ul li{
+        font-size: 19px !important;
+    }
+
+    footer p{
+        float: none;
+        text-align: center;
+        padding-top: 20px;
     }
 }
